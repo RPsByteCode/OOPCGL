@@ -4,12 +4,11 @@
 
 
 ## 1. Digital Differential Analyzer (DDA) Line Code:
-```c
-// This C++ program uses OpenGL to draw a line based on the DDA (Digital Differential Analyzer) Line Drawing Algorithm, 
-// which calculates intermediate points between two user-defined endpoints to create a smooth line segment.
+
+This C++ program uses OpenGL to draw a line based on the DDA (Digital Differential Analyzer) Line Drawing Algorithm, which calculates intermediate points between two user-defined endpoints to create a smooth line segment.
 
 
-
+```cpp
 #include <iostream>
 #include <GL/glut.h>
 #include <GL/glu.h>
@@ -104,12 +103,12 @@ int xc,yc,r;
 
 ## 2. Bresenham's Circle Drawing Code:
 
-```c
-//This C++ program uses OpenGL to draw a circle based on Bresenham's Circle Drawing Algorithm.
-//The algorithm takes a user-defined center and radius to draw a circle using efficient pixel calculations.
-
 Bresenham's Circle Drawing Algorithm in OpenGL:
 This C++ program uses OpenGL to draw a circle based on Bresenham's Circle Drawing Algorithm. The algorithm takes a user-defined center and radius to draw a circle using efficient pixel calculations. Below is the code with explanations.
+
+```cpp
+//This C++ program uses OpenGL to draw a circle based on Bresenham's Circle Drawing Algorithm.
+//The algorithm takes a user-defined center and radius to draw a circle using efficient pixel calculations.
 
 #include <iostream>
 #include <GL/glut.h> // OpenGL Utility Toolkit for rendering
